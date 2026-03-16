@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SIGRF projektuje nowoczesne komponenty RF, systemy embedded i elektronikę na zamówienie." />
+  <title>SIGRF | Komponenty RF i rozwiązania embedded</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="background-glow background-glow--one" aria-hidden="true"></div>
+  <div class="background-glow background-glow--two" aria-hidden="true"></div>
+
+  <header class="site-header" id="start">
+    <nav class="nav container" aria-label="Główna nawigacja">
+      <a class="logo" href="#start">SIGRF</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#start">Start</a></li>
+        <li><a href="#produkty">Produkty</a></li>
+        <li><a href="#o-firmie">O firmie</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-content">
+        <p class="eyebrow">RF • Embedded • Elektronika na zamówienie</p>
+        <h1>SIGRF – nowoczesne komponenty RF i rozwiązania embedded</h1>
+        <p class="hero-subtitle">
+          Projektujemy komponenty RF, systemy embedded oraz rozwiązania elektroniczne dla
+          krótkofalowców, konstruktorów i nowoczesnych projektów technicznych.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#produkty">Zobacz produkty</a>
+          <a class="btn btn-secondary" href="#kontakt">Skontaktuj się</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+      </div>
+    </section>
+
+    <section class="section" id="produkty">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Nasze produkty</h2>
+          <p>Komponenty przygotowane z myślą o stabilnej pracy i łatwej integracji w projektach RF.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-image" role="img" aria-label="Miejsce na zdjęcie filtrów RF">RF</div>
+            <h3>Filtry RF</h3>
+            <p>Precyzyjne rozwiązania dla projektów radiowych i zastosowań krótkofalarskich.</p>
+          </article>
+          <article class="card">
+            <div class="card-image" role="img" aria-label="Miejsce na zdjęcie modułów RF">MOD</div>
+            <h3>Moduły RF</h3>
+            <p>Nowoczesne moduły i elementy do budowy własnych systemów radiowych.</p>
+          </article>
+          <article class="card">
+            <div class="card-image" role="img" aria-label="Miejsce na zdjęcie akcesoriów RF">ACC</div>
+            <h3>Akcesoria RF</h3>
+            <p>Komponenty pomocnicze i dodatki wspierające projekty techniczne.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="o-firmie">
+      <div class="container about-grid">
+        <div>
+          <div class="section-heading align-left">
+            <h2>O firmie SIGRF</h2>
+          </div>
+          <p>
+            Firma SIGRF koncentruje się na projektowaniu rozwiązań RF, systemów embedded i elektroniki użytkowej.
+            Tworzymy sprzęt techniczny, który ma działać stabilnie w rzeczywistych warunkach, a nie tylko dobrze
+            wyglądać w specyfikacji.
+          </p>
+        </div>
+        <ul class="pillars" aria-label="Główne filary działalności SIGRF">
+          <li>Techniczne podejście</li>
+          <li>Praktyczne rozwiązania</li>
+          <li>Dla krótkofalowców i konstruktorów</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="technologie">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Technologie i obszary działania</h2>
+        </div>
+        <div class="tech-list" role="list">
+          <div class="tech-item" role="listitem"><span>📡</span>RF systems</div>
+          <div class="tech-item" role="listitem"><span>⚙️</span>Embedded firmware</div>
+          <div class="tech-item" role="listitem"><span>🧩</span>PCB design</div>
+          <div class="tech-item" role="listitem"><span>📶</span>Wireless communication</div>
+          <div class="tech-item" role="listitem"><span>∿</span>Signal processing</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="kontakt">
+      <div class="container contact-block">
+        <div class="section-heading align-left">
+          <h2>Kontakt</h2>
+          <p>
+            Jeśli chcesz porozmawiać o projekcie, współpracy lub rozwiązaniu technicznym, skontaktuj się z nami.
+          </p>
+        </div>
+        <ul class="contact-list">
+          <li><strong>E-mail:</strong> <a href="mailto:kontakt@sigrf.pl">kontakt@sigrf.pl</a></li>
+          <li><strong>Lokalizacja:</strong> Polska</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-logo">SIGRF</p>
+      <p>Nowoczesne rozwiązania RF i embedded</p>
+      <p>&copy; <span id="year"></span> SIGRF. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
