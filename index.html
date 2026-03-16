@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="SIGRF projektuje komponenty RF, elektronikę i rozwiązania techniczne dla krótkofalowców oraz konstruktorów."
+  />
+  <title>SIGRF | Komponenty RF dla krótkofalowców</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--navy" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--orange" aria-hidden="true"></div>
+
+  <header class="site-header" id="start">
+    <nav class="nav container" aria-label="Główna nawigacja">
+      <a class="brand" href="#start" aria-label="SIGRF - strona główna">
+        <img src="SIGRF_LOGO.png" alt="SIGRF logo" class="brand-logo" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list" aria-label="Otwórz menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#start">Start</a></li>
+        <li><a href="#produkty">Produkty</a></li>
+        <li><a href="#instrukcje">Instrukcje</a></li>
+        <li><a href="#o-firmie">O firmie</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="label">Komponenty RF • Elektronika • Projekty techniczne</p>
+          <h1>SIGRF – nowoczesne komponenty RF dla krótkofalowców</h1>
+          <p>
+            Projektujemy komponenty RF, rozwiązania techniczne i elektronikę dla krótkofalowców,
+            konstruktorów i projektów radiowych.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#produkty">Zobacz produkty</a>
+            <a class="btn btn-secondary" href="#instrukcje">Instrukcje</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-hidden="true">
+          <div class="signal signal-a"></div>
+          <div class="signal signal-b"></div>
+          <div class="signal signal-c"></div>
+          <div class="signal-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="produkty">
+      <div class="container">
+        <div class="section-head">
+          <h2>Produkty</h2>
+          <p>Rozwiązania przygotowane pod realne wymagania projektów radiowych i konstrukcji własnych.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-media" role="img" aria-label="Miejsce na zdjęcie: filtry RF">RF</div>
+            <h3>Filtry RF</h3>
+            <p>Precyzyjne tory filtracji dla stabilnej pracy odbiorników i nadajników.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-media" role="img" aria-label="Miejsce na zdjęcie: moduły RF">MOD</div>
+            <h3>Moduły RF</h3>
+            <p>Gotowe bloki radiowe do integracji w urządzeniach i prototypach.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-media" role="img" aria-label="Miejsce na zdjęcie: akcesoria RF">ACC</div>
+            <h3>Akcesoria RF</h3>
+            <p>Elementy uzupełniające usprawniające montaż i strojenie układów.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="instrukcje">
+      <div class="container">
+        <div class="section-head">
+          <h2>Instrukcje</h2>
+          <p>Sekcja przygotowana pod łatwe dodawanie kolejnych instrukcji i dokumentacji produktów.</p>
+        </div>
+
+        <!-- Każdy article.instruction-item to osobny wpis dokumentacji -->
+        <div class="instructions-grid">
+          <article class="instruction-item">
+            <h3>Instrukcja produktu 1</h3>
+            <p>Opis konfiguracji, podłączenia i podstawowego uruchomienia urządzenia.</p>
+            <a class="btn btn-ghost" href="#" aria-label="Zobacz instrukcję produktu 1">Zobacz instrukcję</a>
+          </article>
+
+          <article class="instruction-item">
+            <h3>Instrukcja produktu 2</h3>
+            <p>Procedura kalibracji oraz zalecenia dotyczące pracy w torze RF.</p>
+            <a class="btn btn-ghost" href="#" aria-label="Zobacz instrukcję produktu 2">Zobacz instrukcję</a>
+          </article>
+
+          <article class="instruction-item">
+            <h3>Instrukcja produktu 3</h3>
+            <p>Wskazówki serwisowe i lista najczęstszych scenariuszy diagnostycznych.</p>
+            <a class="btn btn-ghost" href="#" aria-label="Zobacz instrukcję produktu 3">Zobacz instrukcję</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="o-firmie">
+      <div class="container about-layout">
+        <div>
+          <div class="section-head section-head--left">
+            <h2>O firmie SIGRF</h2>
+          </div>
+          <p>
+            SIGRF zajmuje się projektowaniem komponentów RF oraz rozwiązań technicznych dla
+            krótkofalowców i konstruktorów.
+          </p>
+        </div>
+
+        <ul class="about-points" aria-label="Mocne strony SIGRF">
+          <li>Techniczne podejście</li>
+          <li>Praktyczne rozwiązania</li>
+          <li>Projekty RF dla pasjonatów elektroniki</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="kontakt">
+      <div class="container contact-layout">
+        <div class="section-head section-head--left">
+          <h2>Kontakt</h2>
+          <p>Skontaktuj się, jeśli chcesz omówić projekt, współpracę lub dobór rozwiązania RF.</p>
+        </div>
+
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:kontakt@sigrf.pl">kontakt@sigrf.pl</a></li>
+          <li><strong>Lokalizacja:</strong> Polska</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <img src="SIGRF_LOGO.png" alt="SIGRF logo" class="footer-logo" />
+      <p>Projektowanie komponentów RF i rozwiązań technicznych dla konstruktorów.</p>
+      <p>&copy; <span id="year"></span> SIGRF. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
