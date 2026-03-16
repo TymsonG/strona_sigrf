@@ -1,0 +1,29 @@
+<svg width="960" height="300" viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo SIGRF">
+  <defs>
+    <style>
+      .navy{fill:#0d2749}.orange{fill:#ff8a15}.none{fill:none;stroke-linecap:round;stroke-width:8}
+    </style>
+  </defs>
+
+  <!-- Fale RF -->
+  <path class="none orange" d="M435 82c-14 15-14 40 0 55"/>
+  <path class="none orange" d="M410 70c-22 24-22 58 0 82"/>
+  <path class="none orange" d="M385 58c-30 33-30 75 0 108"/>
+  <path class="none orange" d="M525 82c14 15 14 40 0 55"/>
+  <path class="none orange" d="M550 70c22 24 22 58 0 82"/>
+  <path class="none orange" d="M575 58c30 33 30 75 0 108"/>
+
+  <!-- Antena -->
+  <circle class="navy" cx="480" cy="84" r="18"/>
+  <path class="navy" d="M470 118l-34 110 66-40 34 12-38-82-18 6-10-6zm6 30l10 6-22 18 12-24zm30 20l-28 18-15-9 30-24 13 15z"/>
+
+  <!-- Logotyp SigRF -->
+  <g transform="translate(90 150) skewX(-12)">
+    <text x="0" y="72" font-family="Inter, Arial, sans-serif" font-size="128" font-weight="800" class="navy">Sig</text>
+    <text x="265" y="72" font-family="Inter, Arial, sans-serif" font-size="128" font-weight="800" class="orange">RF</text>
+  </g>
+
+  <!-- Ogon R -->
+  <path class="orange" d="M610 248c18 20 44 33 78 36 22 2 35 1 53 0-36-3-67-18-96-48l-35 12z" opacity="0.95"/>
+  <path class="orange" d="M626 258c22 16 49 25 77 27 11 1 20 1 29 0-40-5-66-16-90-37l-16 10z" opacity="0.9"/>
+</svg>
