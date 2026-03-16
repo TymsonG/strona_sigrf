@@ -89,11 +89,11 @@ body {
 }
 
 .nav {
-  min-height: 5.6rem;
+  min-height: 6.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .brand {
@@ -103,8 +103,9 @@ body {
 }
 
 .brand-logo {
-  height: 56px;
+  height: clamp(44px, 7.2vw, 88px);
   width: auto;
+  max-width: min(44vw, 360px);
   display: block;
 }
 
@@ -316,7 +317,7 @@ h1 {
 .instructions-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .card,
@@ -428,7 +429,8 @@ h1 {
   }
 
   .brand-logo {
-    height: 44px;
+    height: clamp(40px, 11vw, 64px);
+    max-width: 56vw;
   }
 
   .menu-toggle {
