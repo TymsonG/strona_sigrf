@@ -1,8 +1,29 @@
-<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo SIGRF">
-  <rect width="420" height="120" fill="transparent"/>
-  <path d="M17 93H112C129 93 139 84 139 72C139 61 133 54 118 51L80 44C70 42 66 39 66 33C66 26 72 22 82 22H151L146 38H86C77 38 72 42 72 48C72 54 76 57 86 60L125 68C142 72 149 80 149 93C149 110 136 120 114 120H10L17 93Z" fill="#0D2749"/>
-  <path d="M166 93L178 22H230L218 93H166Z" fill="#0D2749"/>
-  <path d="M212 120L219 93H273C286 93 294 87 297 75L298 71C301 59 296 53 283 53H227L234 22H301C329 22 343 35 338 60L334 80C328 106 310 120 281 120H212Z" fill="#0D2749"/>
-  <path d="M282 93L294 22H350C379 22 393 35 388 60L387 66C382 89 365 101 337 101H311L349 120H314L282 93ZM314 79H340C351 79 358 74 360 64L361 60C363 51 358 46 347 46H321L314 79Z" fill="#FF8A15"/>
-  <path d="M353 93L365 22H419L414 38H372L368 58H411L406 74H364L360 93H353Z" fill="#FF8A15"/>
+<svg width="960" height="300" viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo SIGRF">
+  <defs>
+    <style>
+      .navy{fill:#0d2749}.orange{fill:#ff8a15}.none{fill:none;stroke-linecap:round;stroke-width:8}
+    </style>
+  </defs>
+
+  <!-- Fale RF -->
+  <path class="none orange" d="M435 82c-14 15-14 40 0 55"/>
+  <path class="none orange" d="M410 70c-22 24-22 58 0 82"/>
+  <path class="none orange" d="M385 58c-30 33-30 75 0 108"/>
+  <path class="none orange" d="M525 82c14 15 14 40 0 55"/>
+  <path class="none orange" d="M550 70c22 24 22 58 0 82"/>
+  <path class="none orange" d="M575 58c30 33 30 75 0 108"/>
+
+  <!-- Antena -->
+  <circle class="navy" cx="480" cy="84" r="18"/>
+  <path class="navy" d="M470 118l-34 110 66-40 34 12-38-82-18 6-10-6zm6 30l10 6-22 18 12-24zm30 20l-28 18-15-9 30-24 13 15z"/>
+
+  <!-- Logotyp SigRF -->
+  <g transform="translate(90 150) skewX(-12)">
+    <text x="0" y="72" font-family="Inter, Arial, sans-serif" font-size="128" font-weight="800" class="navy">Sig</text>
+    <text x="265" y="72" font-family="Inter, Arial, sans-serif" font-size="128" font-weight="800" class="orange">RF</text>
+  </g>
+
+  <!-- Ogon R -->
+  <path class="orange" d="M610 248c18 20 44 33 78 36 22 2 35 1 53 0-36-3-67-18-96-48l-35 12z" opacity="0.95"/>
+  <path class="orange" d="M626 258c22 16 49 25 77 27 11 1 20 1 29 0-40-5-66-16-90-37l-16 10z" opacity="0.9"/>
 </svg>
